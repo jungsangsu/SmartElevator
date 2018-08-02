@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/silver">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.58"
+        android:background="@drawable/black_hi">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+        //중간 빈칸
+
+        <TextView
+            android:id="@+id/textView_list_floor"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#1edff1"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView_list_Contents"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.70"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="#1edff1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_main_result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+    </LinearLayout>         //중간 빈칸
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/button_event_emergency" />    //응급버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/button_event_sagag"
+            android:text="무엇을만들까" />                                    //미구현 버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:orientation="horizontal"></LinearLayout>         //중간 빈칸
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+        <Button
+            android:id="@+id/output3"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="btn_botton3"
+            android:background="@drawable/button_event_sagag"
+            android:text="3F"
+            android:textSize="50dp" />          //3층버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+        <Button
+            android:id="@+id/output6"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="btn_botton6"
+            android:background="@drawable/button_event_sagag"
+            android:text="6F"
+            android:textSize="50dp" />          //6층버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+    </LinearLayout>     //중간 빈칸
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+
+        <Button
+            android:id="@+id/output2"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:onClick="btn_botton2"
+            android:background="@drawable/button_event_sagag"
+            android:text="2F"
+            android:textSize="50dp"
+            android:layout_weight="0.25" />      //2층버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+
+        <Button
+            android:id="@+id/output5"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:onClick="btn_botton5"
+            android:background="@drawable/button_event_sagag"
+            android:text="5F"
+            android:textSize="50dp"
+            android:layout_weight="0.25"/>          //5층버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:orientation="horizontal"></LinearLayout>         //중간 빈칸
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+
+        <Button
+            android:id="@+id/output1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btn_botton1"
+            android:background="@drawable/button_event_sagag"
+            android:text="1F"
+            android:textSize="50dp" />          //1층버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+
+        <Button
+            android:id="@+id/output4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btn_botton4"
+            android:background="@drawable/button_event_sagag"
+            android:text="4F"
+            android:textSize="50dp" />          //4층버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"></LinearLayout>         //중간 빈칸
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.40">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+        <Button
+            android:id="@+id/button_UP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_event_updown"
+            android:onClick="btn_bottonUp"
+            android:text="◀I▶"
+            android:textSize="36sp"
+            android:textColor="@color/button_event_color"/>         //열림버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+        <Button
+            android:id="@+id/button_DOWN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_event_updown"
+            android:onClick="btn_bottonClose"
+            android:text="▶I◀"
+            android:textSize="36sp"
+            android:textColor="@color/button_event_color" />            //닫힘버튼
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>         //중간 빈칸
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="horizontal"></LinearLayout>         //중간 빈칸
+
+</LinearLayout>
