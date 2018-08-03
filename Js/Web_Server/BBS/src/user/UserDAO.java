@@ -1,4 +1,4 @@
-package user;
+﻿package user;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,8 +16,8 @@ public class UserDAO {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://ssdb.ccijo8xfuwup.ap-northeast-2.rds.amazonaws.com:3306/SSDB?verifyServerCertificate=false&useSSL=true", "sangsu",
-					"tkd1029718"); // DataBase와 연결-> RDS 사용하기.
+					"jdbc:mysql://ssdb.ccijo8xfuwup.ap-northeast-2.rds.amazonaws.com:3306/SSDB?verifyServerCertificate=false&useSSL=true", "username",
+					"password"); // DataBase와 연결-> RDS 사용하기.
 		}catch(Exception e)
 		{
 			e.printStackTrace();

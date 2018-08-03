@@ -66,7 +66,7 @@ private void initComponents(String Listname) {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://ssdb.ccijo8xfuwup.ap-northeast-2.rds.amazonaws.com:3306/SSDB?verifyServerCertificate=false&useSSL=true",
-					"sangsu", "tkd1029718"); // DataBase와 연결-> RDS 사용하기.
+					"username", "password"); // DataBase와 연결-> RDS 사용하기.
 				
 			stmt = (Statement) conn.createStatement();
 			rs = stmt.executeQuery("select * from info where name like '%" + Listname + "%' ");
@@ -138,7 +138,7 @@ private void initComponents(String Listname) {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://ssdb.ccijo8xfuwup.ap-northeast-2.rds.amazonaws.com:3306/SSDB?verifyServerCertificate=false&useSSL=true",
-					"sangsu", "tkd1029718"); // DataBase와 연결-> RDS 사용하기.
+					"username", "password"); // DataBase와 연결-> RDS 사용하기.
 				
 			stmt = (Statement) conn.createStatement();
 			rs = stmt.executeQuery("select * from info");

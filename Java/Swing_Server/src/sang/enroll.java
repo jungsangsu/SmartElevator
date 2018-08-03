@@ -219,7 +219,7 @@ public class enroll extends javax.swing.JFrame {
 				Class.forName("com.mysql.jdbc.Driver");
 				conn = DriverManager.getConnection(
 						"jdbc:mysql://ssdb.ccijo8xfuwup.ap-northeast-2.rds.amazonaws.com:3306/SSDB?verifyServerCertificate=false&useSSL=true",
-						"sangsu", "tkd1029718"); // DataBase와 연결-> RDS 사용하기.
+						"username", "password"); // DataBase와 연결-> RDS 사용하기.
 				
 				if (e.getSource() == jButton1) { // 사진 촬영 버튼 누를시.
 					if(jTextField1.getText().isEmpty()||jTextField2.getText().isEmpty()||jTextField3.getText().isEmpty()||jTextField4.getText().isEmpty()) //사용자 이름정보를 입력안하고 사진을 찍으려고 할떄!
