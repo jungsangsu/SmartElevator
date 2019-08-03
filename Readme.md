@@ -8,7 +8,7 @@
  
 #### 시스템 구성도
 <img src="./Img/시스템 구성도.png">
-<img src="./Img/SW 구성도.png">
+<img src="./Img/SW 구성도.PNG">
 
 #### **작품 기능**
   *  Feature Matching 알고리즘을 이용한 얼굴인식을 통해 버튼을 자동으로 눌러주는 자동화버튼 기능. 
@@ -22,14 +22,14 @@
 
 
 #### **사용자 인터페이스** 
-<img src="./Img/사용자 인터페이스.png">
+<img src="./Img/사용자인터페이스.png">
 
 
 #### **HW 모형**
 <img src="./Img/HW 모형.png">
 	
 * #### [영상]
-	* 링크
+	* https://youtu.be/CS2DE2ugyJM
 	
 * ### 라이센스
 		     GNU GENERAL PUBLIC LICENSE
